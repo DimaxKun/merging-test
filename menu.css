@@ -1,0 +1,72 @@
+header h1{
+    text-align: center;
+    color: rgb(216, 19, 19);
+}
+
+header p{
+    text-align: center;
+    font-style: italic;
+}
+
+.menu-card{
+    display: block;
+    background-color: white;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.1); 
+    border-radius: 15px;
+    margin: 10%;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.menu-card h2{
+    position: relative;
+    padding: 30px;
+}
+
+.menu-card h2::after {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    width: 15%;
+    height: 2px;
+    background-color: rgb(216, 19, 19);
+  }
+
+.menu-item{
+    display: flex;
+    border-left: 5px solid rgb(216, 19, 19);
+    background-color: rgb(245, 245, 245);
+    border-radius: 15px;
+    margin: 5%;
+    align-items: center;
+    margin-top: 0;
+}
+
+.menu-item img{
+    height: 130px;
+    width: 170px;
+    padding: 20px;
+    border-radius: 30px;
+    object-fit: fill;
+}
+
+
+div h3{
+    margin-top: -6px;
+    color: rgb(216, 19, 19);
+}
+
+div .price{
+    color: green;
+    -webkit-text-stroke: .4px green;
+}
+
+body{
+    background-color: rgb(245, 232, 234);
+}
+
+footer{
+    text-align: center;
+}
